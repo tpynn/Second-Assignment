@@ -1,0 +1,101 @@
+.octocat {
+  width: 30%;
+  display: inline-block;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.authors img {
+  width: 25px;
+  border-radius: 15%;
+}
+ul li a img{
+  border: 1px solid lightgray;
+
+}
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+/*div {
+  display: block;
+  margin: 20px;
+}*/
+
+a{
+  color: black;
+  text-decoration: none;
+
+}
+.authors ul{
+  width:30px;
+  margin: 0;
+}
+
+.image-footer img{
+  display: inline;
+}
+.image-number{
+  margin-top: 5px;
+  margin-bottom: 15px;
+  color: lightgray;
+  font-weight: bold;
+  float:left;
+
+
+}
+
+span{
+  color: lightgray;
+}
+.image-number:before{
+  content: "#";
+}
+.image-footer {
+  width: 100%;
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-bottom: 1px solid lightgray;
+}
+.image-caption {
+  float: right;
+  margin-top: -8px;
+  padding-left:
+  /*margin-top: -24px;*/
+  margin-left: -60x;
+
+}
+.image-caption a {
+  /*position: relative;
+  bottom: 10px;*/
+}
+.authors {
+  display: inline;
+  width: 15px;
+}
+.authors span, a{
+top: -20px;
+}
+.authors li {
+  position: relative;
+  top: 10px;
+}
+ul.authors{
+  padding:0px;
+}
+
+.downTriangle{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8.7px 6px 0 6px;
+  border-color: #949799 transparent transparent transparent;
+  position: relative;
+  bottom: 4px;
+  left: 348px;
+}
